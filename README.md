@@ -7,6 +7,17 @@ Monitor Swarm Cluster with Telegraf, InfluxDB, Chronograf, Kapacitor & Slack
 
 * [Monitor Swarm cluster with TICK stack & Slack](https://hackernoon.com/monitor-swarm-cluster-with-tick-stack-slack-3aaa6483d44a)
 
+## Template Variables:
+
+Hosts:
+
+![image](https://user-images.githubusercontent.com/567298/55782453-9ad47380-5aac-11e9-890d-cdb740773d83.png)
+
+Containers:
+
+![image](https://user-images.githubusercontent.com/567298/55782476-a9228f80-5aac-11e9-9677-697aedace99a.png)
+
+## Dashboard Cells:
 
 Query - Memory Usage per Node:
 
