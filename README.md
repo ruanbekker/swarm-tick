@@ -47,7 +47,7 @@ SELECT mean("tx_packets") AS "mean_tx_packets", mean("rx_packets") AS "mean_rx_p
 Query - IO Read/Write per Service
 
 ```
-SELECT mean("io_serviced_recursive_write") AS "mean_io_recursive_write_write", mean("io_serviced_recursive_read") AS "mean_io_serviced_recursive_read" FROM "docker_metrics"."autogen"."docker_container_blkio_docker" WHERE time > :dashboardTime: AND “com.docker.swarm.service.name” = :container: GROUP BY :interval: FILL(null)
+SELECT mean("io_serviced_recursive_write") AS "mean_io_recursive_write_write", mean("io_serviced_recursive_read") AS "mean_io_serviced_recursive_read" FROM "docker_metrics"."autogen"."docker_container_blkio_docker" WHERE time > :dashboardTime: AND "com.docker.swarm.service.name" = :container: GROUP BY :interval: FILL(null)
 ```
 
 ## Maintainers
