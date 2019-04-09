@@ -41,7 +41,7 @@ SELECT mean("usage_percent") AS "mean_usage_percent" FROM "docker_metrics"."auto
 Query - Network Transmit Receive:
 
 ```
-SELECT mean("tx_packets”) AS "mean_tx_packets", mean("rx_packets") AS "mean_rx_packets" FROM "docker_metrics"."autogen"."docker_container_net_docker" WHERE time > :dashboardTime: AND "com.docker.swarm.service.name" = :container: GROUP BY :interval: FILL(null)
+SELECT mean("tx_packets") AS "mean_tx_packets", mean("rx_packets") AS "mean_rx_packets" FROM "docker_metrics"."autogen"."docker_container_net_docker" WHERE time > :dashboardTime: AND "com.docker.swarm.service.name" = :container: GROUP BY :interval: FILL(null)
 ```
 
 Query - IO Read/Write per Service
