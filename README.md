@@ -1,4 +1,4 @@
-# swarm-tick
+# swarm-telegraf-influxdb-chronograf-kapacitor
 
 Monitor Swarm Cluster with Telegraf, InfluxDB, Chronograf, Kapacitor & Slack by [mlabouardy](https://github.com/mlabouardy/swarm-tig)
 
